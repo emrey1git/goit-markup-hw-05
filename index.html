@@ -563,7 +563,7 @@
     </footer>
     <div class="modal___window">
       <div class="modal---container">
-        <button type="button" class="modal-window__button">
+        <button type="button" class="modal-window__first-button">
           Send
           <svg width="8" height="8" class="modal__window-buttın-svg">
             <use href="./images/icons.svg#modal-window-icon"></use>
@@ -573,32 +573,103 @@
           Leave your contacts and we will call you back
         </p>
         <form>
-          <label for="name">
-            Name
-            <input type="text" name="name" id="name" />
-          </label>
-          <label for="phone">
-            Phone
-            <input type="tel" name="phone" id="phone" />
-          </label>
-          <label for="email">
-            Email
-            <input type="email" name="email" id="email" />
-          </label>
-          <label for="comment">
-            Comment
-            <textarea
-              name="comment"
-              id="comment"
-              rows="5"
-              placeholder=""
-            ></textarea>
-          </label>
-          <label for="checkbox">
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            I accept the terms and conditions of the
-            <span>Privacy Policy</span>
-          </label>
+          <div class="modal_window--form_div">
+            <label for="user-name">
+              Name
+              <div class="modal_window-form_div-label_div">
+                <input
+                  class="modal_window-form_div-label_div-input"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                />
+                <svg
+                  width="18"
+                  height="24"
+                  class="modal_window-form_div-label_div-input-svg"
+                >
+                  <use href="./images/icons.svg#icon-username"></use>
+                </svg>
+              </div>
+            </label>
+            <label for="phone">
+              Phone
+              <div class="modal_window-form_div-label_div">
+                <input
+                  class="modal_window-form_div-label_div-input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                />
+                <svg
+                  width="18"
+                  height="24"
+                  class="modal_window-form_div-label_div-input-svg"
+                >
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </label>
+            <label for="email">
+              Email
+              <div class="modal_window-form_div-label_div">
+                <input
+                  class="modal_window-form_div-label_div-input"
+                  type="email"
+                  name="email"
+                  id="email"
+                />
+                <svg
+                  width="18"
+                  height="24"
+                  class="modal_window-form_div-label_div-input-svg"
+                >
+                  <use href="./images/icons.svg#icon-message"></use>
+                </svg>
+              </div>
+            </label>
+            <label for="user-comment">
+              Comment
+              <div class="modal_window-form_div-label_div">
+                <textarea
+                  class="modal-window_form_label-textarea"
+                  name="user-comment"
+                  id="user-comment"
+                  rows="5"
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+            </label>
+            <div class="modal-window__checkbox">
+              <input
+                class="modal-window__checkbox-input visually-hidden"
+                type="checkbox"
+                name="user-privacy"
+                id="user-privacy"
+                value="true"
+              />
+              <label for="user-privacy" class="modal-window__checkbox-label">
+                I accept the terms and conditions of the
+                <span class="modal-window__checkbox-label-span"
+                  >Privacy Policy
+                  <svg
+                    width="10"
+                    height="8"
+                    class="modal-window__checkbox-label-span-svg"
+                  >
+                    <use href=""></use>
+                  </svg>
+                </span>
+                <a href="" class="modal-window__link">Privacy Policy</a>
+              </label>
+            </div>
+          </div>
+          <button type="button" class="modal-window__button">
+            Send
+            <svg class="modal__window-buttın-svg">
+              <use href="./images/icons.svg#modal-window-icon"></use>
+            </svg>
+          </button>
         </form>
       </div>
     </div>
