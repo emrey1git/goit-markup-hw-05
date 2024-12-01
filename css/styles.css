@@ -674,16 +674,17 @@ padding-left: 16px;
 .modal_window--form_div{
     margin-bottom: 8px; 
 }
-.model_window--form_div label {
+
+.modal_window-form_div-label_div{
+    position: relative;
+}
+.modal-window-form-div-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
-}
-.modal_window-form_div-label_div{
-    position: relative;
 }
 .modal_window-form_div-label_div-input {
     width: 100%;
