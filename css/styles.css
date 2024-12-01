@@ -408,11 +408,11 @@ width: 40px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
             list-style: none;
-           
+
 
 }
 .fourth-section__photo-card {
-    position: relative; 
+    position: relative;
     overflow: hidden;
 
 }
@@ -468,8 +468,8 @@ padding-left: 16px;
         width: 100%;
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
-        
+
+
 }
 .fourth-section_list-item:hover .fourth-section-photo-card-text {
     transform: translatey(0);
@@ -480,7 +480,7 @@ padding-left: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-   
+
 }
 .footer {
     background-color: #2e2f42;
@@ -544,7 +544,7 @@ padding-left: 16px;
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
 }
 .footer-social-media-button:hover,
 .footer-social-media-button:focus {
@@ -672,7 +672,8 @@ padding-left: 16px;
     margin-bottom: 16px;
 }
 .modal_window--form_div{
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
+    position: relative;
 }
 .model_window--form_div label {
     font-size: 12px;
@@ -682,9 +683,9 @@ padding-left: 16px;
     display: block;
     margin-bottom: 4px;
 }
-.modal_window-form_div-label_div{
-    position: relative;
-}
+/* .modal_window-form_div-label_div{
+
+} */
 .modal_window-form_div-label_div-input {
     width: 100%;
     height: 40p;
@@ -750,7 +751,7 @@ padding-left: 16px;
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-    
+
 }
 .modal-window__link {
     color: #4d5ae5;
